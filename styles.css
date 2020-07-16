@@ -187,3 +187,32 @@ body{
     height: 115px;
     background: #0bb5f4;
 }
+ul.hobbies-content{
+    width:100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+ul.hobbies-content li{
+    padding:0 30px;
+    float: basis 33%;
+    text-align:center;
+}
+
+.hobbies-content li i{
+    font-size: 25px;
+    color: #0bb5f4;
+    margin-bottom: 25px;
+}
+
+.hobbies-content li p{
+    margin:0;
+}
+.resume_hobby p{
+    margin-bottom: 20px;
+}
